@@ -1,0 +1,19 @@
+{
+  "name": "node-native-test-runner",
+  "packageManager": "yarn@4.3.1",
+  "type": "module",
+  "scripts": {
+    "test": "node --test",
+    "test:cov": "node --test --experimental-test-coverage",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
+  },
+  "dependencies": {
+    "@google-cloud/bigquery": "^7.8.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.7.0",
+    "eslint": "^9.7.0",
+    "typescript": "^5.5.4"
+  }
+}
