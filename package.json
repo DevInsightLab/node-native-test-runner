@@ -9,7 +9,8 @@
     "lint:fix": "eslint . --fix"
   },
   "dependencies": {
-    "@google-cloud/bigquery": "^7.8.0"
+    "@google-cloud/bigquery": "^7.8.0",
+    "node-cache": "^5.1.2"
   },
   "devDependencies": {
     "@eslint/js": "^9.7.0",
